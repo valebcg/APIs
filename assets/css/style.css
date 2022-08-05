@@ -1,6 +1,7 @@
 body {
     margin: 0%;
     padding: 0%;
+    background-color: black;
    
 }
 
@@ -9,11 +10,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: rgb(65, 127, 181);
+    color: #a99516;
 }
 
 hr {
     width: 50rem;
+    
 }
 
 .box {
@@ -26,6 +28,7 @@ hr {
     padding: 3.5rem;
     color: white;
     background-color: #505091b3;
+    margin-top: 5rem;
 }
 
 .sub {
@@ -55,5 +58,4 @@ hr {
     margin-top: 1rem;
     border-radius: 0.5rem;
     background-color: #ffcd90;
-} 
-  
+}
