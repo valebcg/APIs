@@ -14,9 +14,9 @@ async function ConectionServer() {
     let test = (data.serie);
     calculo();
 
-    dataArray = data.serie // Aca es donde guardo el array original en la variable dataArray
+    dataArray = data.serie.slice(0,10); // Aca es donde guardo el array original en la variable dataArray
     const datChange = dataArray.map((x) => x.valor)  //Aca creo una nueva variable para que tome las fechas Label
-    const datLabel = dataArray.map((x) => x.fecha) //Aca creo una nueva variable para que tome las fechas Label
+    const datLabel = dataArray.map((x) => x.fecha.slice(0,10)) //Aca creo una nueva variable para que tome las fechas Label
 
     //Aca envio los datos al grafico
     chartRender(datLabel, datChange)
