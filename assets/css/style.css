@@ -53,9 +53,8 @@ hr {
 
 #btn {
     width: 10.7rem;
-    height: 2.5rem;
-    padding: 0.3rem;
-    margin-top: 1rem;
+    padding: 5%;
+    margin-top: 20%;
     border-radius: 0.5rem;
     background-color: #ffcd90;
 }
